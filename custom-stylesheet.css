@@ -20,6 +20,10 @@ a {
 	text-decoration: none !important;
 }
 
+nav#dataverse-header-block {
+	background-color: #000619;
+}
+
 /* header */
 section#headline {
 	height: 475px;
