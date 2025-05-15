@@ -4,13 +4,13 @@
 .margin-lg { margin: 1.5em !important;  }
 .margin-xl { margin: 3em !important;  }
 
-section > h1, h3, h5, #headline_header {
+.section h1, h3, h5, #headline_header {
 	margin-bottom: 0.5rem;
 	font-weight: 500;
 	line-height: 1.2;
 	color: #F1C40F; 
 }
-section > h2, h4, h6 {
+.section h2, h4, h6 {
 	margin-bottom: 0.5rem;
 	font-weight: 500;
 	line-height: 1.2;
@@ -179,6 +179,45 @@ section#featured {
 
 
 /* Getting Started */
+
+.inline-block > div {
+  display: inline-block;
+}
+section#getStarted a {
+	color: #333 !important;
+}
+section#getStarted .tile:hover {
+	cursor: pointer;
+	transform: translateY(-5px);
+	box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+section#getStarted .tile > [class*="col-"] {
+	padding: 0px !important;
+}
+@media (min-width: 992px) {
+	section#getStarted .tile {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.padding-caption {
+		padding: 30px !important;
+	}
+}
+@media (max-width:991px) and (min-width:768px) {
+	section#getStarted .tile {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.padding-caption {
+		padding: 10px !important;
+	}
+}
+@media (max-width: 767px) {
+	.padding-caption {
+		padding: 20px !important;
+	}
+}
 .align-items-center {
 	display: flex;
 	align-items: center;
