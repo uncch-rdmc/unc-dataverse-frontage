@@ -28,7 +28,7 @@ section > h2, h4, h6 {
 /* header */
 section#headline {
 	background-color: #000619;
-	background-image: url("/branding/images/headline_bg.png");
+	background-image: url("/images/headline_bg.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	color: #ffffff;
