@@ -4,13 +4,13 @@
 .margin-lg { margin: 1.5em !important;  }
 .margin-xl { margin: 3em !important;  }
 
-h1, h3, h5 {
+section > h1, h3, h5 {
 	margin-bottom: 0.5rem;
 	font-weight: 500;
 	line-height: 1.2;
 	color: #F1C40F; 
 }
-h2, h4, h6 {
+section > h2, h4, h6 {
 	margin-bottom: 0.5rem;
 	font-weight: 500;
 	line-height: 1.2;
