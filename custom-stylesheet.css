@@ -4,13 +4,41 @@
 .margin-lg { margin: 1.5em !important;  }
 .margin-xl { margin: 3em !important;  }
 
-.section h1, h3, h5, #headline_header {
+section#headline h1, 
+section#headline h3, 
+section#headline h5, 
+section#searchSection h1,
+section#searchSection h3,
+section#searchSection h5, 
+section#featured h1,
+section#featured h3,
+section#featured h5, 
+section#getStarted h1,
+section#getStarted h3,
+section#getStarted h5,
+div.custom-footer h1,
+div.custom-footer h3,
+div.custom-footer h5 {
 	margin-bottom: 0.5rem;
 	font-weight: 500;
 	line-height: 1.2;
 	color: #F1C40F; 
 }
-.section h2, h4, h6 {
+section#headline h2, 
+section#headline h4, 
+section#headline h6, 
+section#searchSection h2,
+section#searchSection h4,
+section#searchSection h6, 
+section#featured h2,
+section#featured h4,
+section#featured h6, 
+section#getStarted h2,
+section#getStarted h4,
+section#getStarted h6,
+div.custom-footer h2,
+div.custom-footer h4,
+div.custom-footer h6 {
 	margin-bottom: 0.5rem;
 	font-weight: 500;
 	line-height: 1.2;
