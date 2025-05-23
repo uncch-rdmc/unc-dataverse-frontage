@@ -75,23 +75,13 @@ section#headline .row > [class*="col-"] > div {
 	margin-top: 35px;
 	margin-bottom: 35px;
 }
-@media (min-width: 767px) {
-	#discover_button {
-		margin-bottom: 10px;
-		margin-left: 50px;
-	}
-}
-@media (max-width: 767px) {
-	#discover_button {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-}
 .btn-secondary {
 	background-color: #C55B28;
 	border-color: #C55B28;
 	color: #ffffff;
+}
+.btn-secondary:hover {
+	color: #333;
 }
 .responsive-text {
   white-space: nowrap; 
@@ -105,51 +95,22 @@ section#headline .row > [class*="col-"] > div {
   }
 }
 
-
-/* search */
-section#searchSection {
-	height: 150px;
-	background-color: #4B9CD3;
+.full_width {
+	width: 100%;
 }
-.center {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	transform: translateY(90%);
-}
-#custom-search-input {
-    padding: 3px;
-    border: solid 1px #E4E4E4;
-    border-radius: 6px;
-    background-color: #fff;
-}
-#custom-search-input input {
-    border: 0;
-    box-shadow: none;
-}
-#custom-search-input button {
-    margin: 2px 0 0 0;
-    background: none;
-    box-shadow: none;
-    border: 0;
-    color: #666666;
-    padding: 0 8px 0 10px;
-    border-left: solid 1px #ccc;
-}
-#custom-search-input button:hover {
-    border: 0;
-    box-shadow: none;
-    border-left: solid 1px #ccc;
-}
-#custom-search-input .glyphicon-search {
-    font-size: 23px;
-}
-@media (max-width: 767px) {
-	#custom-search-input {
-		margin-left: 30px;
-		margin-right: 30px;
+@media (min-width: 767px) {
+	.nopadding-left {
+		padding-right: 0px !important;
 	}
 }
+@media (max-width: 767px) {
+	.nopadding-right {
+		padding-top: 15px !important;
+	}
+}
+
+
+
 
 /* Featured */
 section#featured {
@@ -382,7 +343,7 @@ section#getStarted .tile > [class*="col-"] {
 	padding-bottom: 30px;
 }
 
-.inline-container h5 {
+.inline-container h4 {
 	margin-top: auto;
 	margin-bottom: auto;
 }
@@ -437,7 +398,7 @@ section#getStarted .tile > [class*="col-"] {
 	#UNCrdmc {
 		padding-top: 10px;
 	}
-	#UNCrdmc h5 {
+	#UNCrdmc h4 {
 		margin-bottom: 10px;
 	}
 	.custom-footer {
