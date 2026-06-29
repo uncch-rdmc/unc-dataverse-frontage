@@ -1,0 +1,2405 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #13294B;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+#btnDataverseSearch {
+  display: none !important;
+}
+
+li #mega-menu-item-145378 {
+  line-height: 30px !important;
+}
+
+.buttonrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.buttoncolumn {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.sectionbutton {
+  display: inline-block;
+  padding: 10px 16px;
+  margin-bottom: 5px;
+  background-color: #B6DDC0;
+  color: #13294B;
+  border-radius: 6px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+.sectionbutton:hover,
+.sectionbutton:focus {
+  background-color: #9FCEAB;
+  color: #13294B;
+}
+
+.sectionbutton-navy,
+.rdmcsectiononeone .sectionbutton {
+  background-color: #13294B;
+  color: #ffffff;
+}
+
+.sectionbutton-navy:hover,
+.sectionbutton-navy:focus,
+.rdmcsectiononeone .sectionbutton:hover,
+.rdmcsectiononeone .sectionbutton:focus {
+  background-color: #21406F;
+  color: #ffffff;
+}
+
+.sectionbutton-light,
+.rdmcsectiontwotwo .sectionbutton {
+  background-color: #B6DDC0;
+  color: #13294B;
+}
+
+.navimenu h2,
+.rdmcsection h2,
+.rdmcsectiontwo h2,
+.rdmcsectiononeone h2,
+.rdmcsectiontwotwo h2 {
+  font-size: 34px !important;
+  font-weight: 700 !important;
+}
+
+.navimenu {
+  padding: 10px;
+  background-color: #13294B;
+  color: #ffffff;
+  border-radius: 15px 0 15px 0;
+  font-size: 18px;
+}
+
+.navimenu h2 {
+  margin-bottom: 0.5rem;
+}
+
+.navimenu ul {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.navimenu li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.navimenu li + li {
+  margin-top: 0.2rem;
+}
+
+.navimenu li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navimenu a {
+  display: inline-block;
+  padding: 3px 6px;
+  color: #ffffff;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.navimenu a:hover,
+.navimenu a:focus {
+  background-color: #B6DDC0;
+  color: #13294B;
+  outline-offset: 3px;
+}
+
+.navimenu a.is-active,
+.navimenu a[aria-current="location"] {
+  background-color: #B6DDC0;
+  color: #13294B;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navimenu li:has(a.is-active)::before,
+.navimenu li:has(a[aria-current="location"])::before {
+  color: #B6DDC0;
+}
+
+.rdmcsection,
+.rdmcsectiontwo,
+.rdmcsectiononeone,
+.rdmcsectiontwotwo {
+  padding: 10px !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px !important;
+}
+
+.rdmcsection {
+  background-color: #ECEDED;
+}
+
+.rdmcsectiononeone {
+  background-color: #B6DDC0;
+  color: #13294B;
+}
+
+.rdmcsectiontwotwo {
+  background-color: #13294B;
+  color: #ffffff;
+}
+
+.rdmc-sticky-layout {
+  width: 100%;
+}
+
+.rdmc-scroll-content > [id],
+.card-carousel[id] {
+  scroll-margin-top: 24px;
+}
+
+.rdmcuncbanner {
+  display: flex;
+  min-height: 238px;
+  margin-top: 0;
+  background: url("008420_CampusFeatures0083.jpg") no-repeat right center;
+  background-size: cover;
+}
+
+.rdmcuncribbon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  min-width: 0;
+  width: 35%;
+  margin-left: 12.5%;
+  background-color: #4B9CD3;
+  color: #13294B;
+}
+
+.rdmcuncribbontext {
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.rdmcuncribbon h1 {
+  padding: 5px 15px;
+  color: #ffffff;
+  font-family: "Field Gothic No. 34", "Open Sans", Arial, sans-serif;
+  max-width: 100%;
+  font-size: clamp(42px, 4.8vw, 64px);
+  font-weight: 700;
+  line-height: 1;
+  overflow-wrap: anywhere;
+}
+
+.rdmcuncribbon p {
+  padding: 5px 15px;
+  color: #13294B;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.rdmcuncribbon .certificate-link {
+  color: #13294B;
+  font-weight: 700;
+}
+
+.rdmcuncribbonbuttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: auto;
+}
+
+.ribbonbutton3 {
+  flex: 1;
+  padding: 10px;
+  background-color: #13294B;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.ribbonbutton3 p {
+  margin: 0;
+}
+
+.rdmcuncribbonbuttons a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.ribbonbutton3 input,
+.ribbonbutton3 button,
+.ribbonbutton3 a {
+  width: 100%;
+  color: #5B6670;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.rdmcuncbanner p:empty {
+  display: none;
+}
+
+.card-carousel {
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+.carousel-header {
+  margin-bottom: 2rem;
+}
+
+.carousel-header h2 {
+  font-weight: 700;
+}
+
+.carousel-wrapper {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr) 56px;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.carousel-viewport {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: visible;
+  padding-bottom: 12px;
+}
+
+.carousel-track {
+  display: flex;
+  align-items: stretch;
+  gap: 1.5rem;
+  transition: transform 0.4s ease;
+}
+
+.carousel-card {
+  display: flex;
+  flex: 0 0 calc((100% - 3rem) / 3);
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #d0d0d0;
+  border-radius: 15px 0 15px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.carousel-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.carousel-card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 1.5rem;
+}
+
+.carousel-card-body h3 {
+  margin: 0 0 1rem;
+  color: #13294B;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.carousel-card-body p {
+  flex-grow: 1;
+  margin: 0 0 1rem;
+  font-size: 18px;
+}
+
+.card-button {
+  display: inline-block;
+  margin-top: auto;
+  padding: 10px 16px;
+  background-color: #B1B8DD;
+  color: #13294B;
+  border: 0;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.card-button:hover,
+.card-button:focus {
+  background-color: #A2AAD3;
+  color: #13294B;
+  text-decoration: none;
+}
+
+.rdmc-carousel-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  background: #5B6670;
+  color: #ffffff;
+  border: 2px solid #5B6670;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 2rem;
+  line-height: 1;
+  transition: opacity 0.2s ease;
+}
+
+.rdmc-carousel-button span {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.rdmc-carousel-button:hover {
+  opacity: 0.9;
+}
+
+.rdmc-carousel-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.rdmc-carousel-button:focus-visible,
+.card-button:focus-visible {
+  outline: 3px solid #4B9CD3;
+  outline-offset: 3px;
+}
+
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.rdmc-footer {
+  padding: 48px 24px;
+  background-color: #4B9CD3;
+  color: #ffffff;
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+
+.rdmc-footer-inner {
+  display: grid;
+  grid-template-columns: minmax(260px, 1fr) minmax(260px, 1fr);
+  gap: 48px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.rdmc-footer-column p {
+  margin: 0 0 14px;
+}
+
+.rdmc-footer-column p:last-child {
+  margin-bottom: 0;
+}
+
+.rdmc-footer-links {
+  justify-self: end;
+  text-align: right;
+}
+
+.rdmc-footer a {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.rdmc-footer a:hover,
+.rdmc-footer a:focus {
+  color: #ffffff;
+  text-decoration-thickness: 2px;
+}
+
+.rdmc-footer a:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 4px;
+}
+
+.rdmc-footer-logo {
+  display: block;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 18px;
+}
+
+.menu-logo,
+.mega-menu-logo img,
+img.mega-menu-logo {
+  max-height: 58px;
+  width: auto;
+}
+
+#site-navigation,
+#site-navigation .inside-navigation,
+#mega-menu-wrap-primary {
+  position: relative;
+  z-index: 9999;
+}
+
+#mega-menu-wrap-primary .mega-menu-toggle {
+  display: none !important;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary .menu-logo {
+  display: block;
+}
+
+@media only screen and (min-width: 1320px) {
+  .rdmc-sticky-layout {
+    --rdmc-side-nav-width: 235px;
+    --rdmc-side-nav-gap: 22px;
+    position: relative;
+  }
+
+  .navimenu {
+    position: sticky;
+    top: 24px;
+    float: left;
+    width: var(--rdmc-side-nav-width);
+    max-height: calc(100vh - 48px);
+    overflow-y: auto;
+    margin-left: calc((var(--rdmc-side-nav-width) + var(--rdmc-side-nav-gap)) * -1);
+    margin-right: var(--rdmc-side-nav-gap);
+    z-index: 2;
+  }
+
+  .rdmc-scroll-content {
+    min-width: 0;
+  }
+}
+
+@media only screen and (min-width: 1180px) and (max-width: 1319px) {
+  .rdmc-sticky-layout {
+    display: grid;
+    grid-template-columns: minmax(180px, 210px) minmax(0, 1fr);
+    gap: 18px;
+    align-items: start;
+  }
+
+  .navimenu {
+    position: sticky;
+    top: 24px;
+    align-self: start;
+    max-height: calc(100vh - 48px);
+    overflow-y: auto;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  #mega-menu-wrap-primary {
+    width: 100%;
+  }
+
+  #mega-menu-wrap-primary .mega-menu-toggle {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100%;
+    min-height: 70px;
+    height: auto;
+    padding: 8px 12px;
+    background: #ffffff;
+    cursor: pointer;
+    position: relative;
+    z-index: 10001;
+  }
+
+  #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-blocks-left,
+  #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-blocks-right {
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-blocks-left {
+    flex: 1 1 auto;
+    justify-content: flex-start;
+  }
+
+  #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-blocks-center {
+    display: none !important;
+  }
+
+  #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-blocks-right {
+    flex: 0 0 auto;
+    justify-content: flex-end;
+  }
+
+  #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-block,
+  #mega-menu-wrap-primary .mega-menu-toggle .mega-logo-block,
+  #mega-menu-wrap-primary .mega-menu-toggle .mega-menu-toggle-block {
+    display: flex !important;
+    align-items: center !important;
+    height: auto !important;
+  }
+
+  #mega-menu-wrap-primary .mega-menu-toggle a.mega-menu-logo,
+  #mega-menu-wrap-primary .mega-menu-toggle img.mega-menu-logo {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  #mega-menu-wrap-primary .mega-menu-toggle img.mega-menu-logo {
+    max-height: 48px !important;
+    width: auto !important;
+    max-width: 220px !important;
+    position: static !important;
+    top: auto !important;
+  }
+
+  #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-block-2 {
+    cursor: pointer;
+    padding: 8px 10px;
+    background: #ffffff;
+    color: #13294B;
+    border: 2px solid #13294B;
+    border-radius: 4px;
+  }
+
+  #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-block-2 button,
+  #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-block-2 .mega-toggle-label {
+    cursor: pointer;
+    padding: 0;
+    background: transparent;
+    color: #13294B !important;
+    border: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-block-2::after {
+    content: "☰" !important;
+    margin-left: 8px;
+    color: #13294B !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 24px !important;
+    line-height: 1;
+  }
+
+  #mega-menu-wrap-primary .mega-menu-toggle.mega-menu-open .mega-toggle-block-2::after {
+    content: "×" !important;
+    font-size: 28px !important;
+  }
+
+  #mega-menu-wrap-primary .mega-menu-toggle + #mega-menu-primary,
+  #mega-menu-wrap-primary #mega-menu-primary {
+    display: none !important;
+    flex-direction: column;
+    width: 100%;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 10000;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+  }
+
+  #mega-menu-wrap-primary .mega-menu-toggle.mega-menu-open + #mega-menu-primary,
+  #mega-menu-wrap-primary #mega-menu-primary.mega-menu-open {
+    display: flex !important;
+    visibility: visible !important;
+  }
+
+  #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item {
+    display: block !important;
+    width: 100%;
+  }
+
+  #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link {
+    display: block;
+    width: 100%;
+    min-height: 44px;
+    height: auto;
+    padding: 14px 16px;
+    background: #ffffff;
+    color: #13294B;
+    border-bottom: 1px solid #ECEDED;
+    line-height: 1.4;
+  }
+
+  #mega-menu-wrap-primary #mega-menu-primary li.mega-hide-on-mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1231px) {
+  .rdmcuncribbon {
+    margin-left: 10%;
+  }
+
+  .rdmcuncbanner {
+    background-position: right top;
+  }
+}
+
+@media (max-width: 1024px) {
+  .carousel-wrapper {
+    grid-template-columns: 48px minmax(0, 1fr) 48px;
+  }
+
+  .carousel-card {
+    flex: 0 0 calc((100% - 1.5rem) / 2);
+  }
+
+  .carousel-card-body h3 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 991px) {
+  .rdmcuncribbon {
+    width: 40%;
+    margin-left: 5%;
+  }
+
+  .ribbonbutton3 {
+    padding: 15px 10px;
+  }
+
+  .rdmcuncbanner {
+    background-position: 60% center;
+  }
+}
+
+@media (max-width: 800px) {
+  .rdmcuncbanner {
+    min-height: 525px;
+    background-position: 80% 80%;
+  }
+
+  .carousel-wrapper {
+    grid-template-columns: 44px minmax(0, 1fr) 44px;
+    gap: 0.5rem;
+  }
+
+  .carousel-card {
+    flex: 0 0 100%;
+  }
+
+  .carousel-card-body {
+    padding: 1rem;
+  }
+
+  .carousel-card-body h3 {
+    font-size: 20px;
+  }
+
+  .rdmc-carousel-button {
+    width: 44px;
+    height: 44px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navimenu {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .navimenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .navimenu li {
+    margin: 0;
+  }
+
+  .navimenu a {
+    display: block;
+  }
+
+  .buttoncolumn {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #prepdata .buttonrow {
+    justify-content: center;
+  }
+
+  #prepdata .buttonrow .sectionbutton {
+    width: min(100%, 340px);
+  }
+
+  .rdmc-footer-inner {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    text-align: center;
+  }
+
+  .rdmc-footer-links {
+    justify-self: center;
+    text-align: center;
+  }
+
+  .rdmc-footer-logo {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .rdmcuncbanner {
+    position: relative;
+    min-height: 420px;
+    background-position: 76% 80%;
+  }
+
+  .rdmcuncribbon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .rdmcuncribbontext {
+    padding: 10px 15px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .rdmcuncribbontext h1 {
+    margin-top: 0;
+    padding: 0;
+    font-size: clamp(38px, 11vw, 48px);
+  }
+
+  .rdmcuncribbon p {
+    padding: 0;
+  }
+
+  .rdmcuncribbonbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: auto;
+  }
+
+  .ribbonbutton3 {
+  flex: 1;
+  padding: 10px;
+  background-color: #13294B;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.ribbonbutton3 p {
+  margin: 0;
+}
+
+.rdmcuncribbonbuttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .carousel-track {
+    transition: none;
+  }
+}
+
+/* Customer edit pass: refined hero, button colors, two-column sections, CoreTrustSeal nav placement, and featured collection spacing. */
+:root {
+  --rdmc-navy: #13294B;
+  --rdmc-carolina-blue: #4B9CD3;
+  --rdmc-mountain-dusk: #4E3C98;
+  --rdmc-aster: #B1B8DD;
+  --rdmc-dogwood: #B6DDC0;
+  --rdmc-light-gray: #ECEDED;
+}
+
+.rdmcuncbanner {
+  background-position: 88% center;
+}
+
+.rdmcuncribbon {
+  width: min(430px, 32vw);
+  margin-left: max(24px, calc((100vw - 1200px) / 2));
+}
+
+.rdmcuncribbontext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.rdmcuncribbon p {
+  margin-bottom: 0;
+}
+
+.coretrust-nav-link {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.coretrust-nav-link img {
+  width: auto;
+  height: 48px;
+  max-width: 70px;
+  object-fit: contain;
+}
+
+/* Keep the CoreTrustSeal image link from inheriting menu underline styles. */
+#mega-menu-wrap-primary .coretrust-nav-link,
+#mega-menu-wrap-primary .coretrust-nav-link:hover,
+#mega-menu-wrap-primary .coretrust-nav-link:focus,
+#mega-menu-wrap-primary .coretrust-nav-link:visited,
+#mega-menu-wrap-primary .coretrust-nav-link.mega-menu-link,
+#mega-menu-wrap-primary .coretrust-nav-link.mega-menu-link:hover,
+#mega-menu-wrap-primary .coretrust-nav-link.mega-menu-link:focus {
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+}
+
+#mega-menu-wrap-primary .coretrust-nav-link img {
+  display: block;
+  text-decoration: none !important;
+  border: 0 !important;
+}
+
+.coretrust-nav-item .mega-menu-link {
+  padding-right: 12px !important;
+  padding-left: 12px !important;
+  background: #ffffff !important;
+}
+
+.coretrust-mobile {
+  display: none !important;
+}
+
+.sectionbutton,
+.rdmcsection .sectionbutton,
+.rdmcsectiontwo .sectionbutton {
+  background-color: var(--rdmc-mountain-dusk);
+  color: #ffffff;
+}
+
+.sectionbutton:hover,
+.sectionbutton:focus,
+.rdmcsection .sectionbutton:hover,
+.rdmcsection .sectionbutton:focus,
+.rdmcsectiontwo .sectionbutton:hover,
+.rdmcsectiontwo .sectionbutton:focus {
+  background-color: #3f307d;
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.rdmcsectiontwotwo .sectionbutton,
+.rdmcsectiontwotwo .sectionbutton-light {
+  background-color: var(--rdmc-aster);
+  color: var(--rdmc-navy);
+}
+
+.rdmcsectiontwotwo .sectionbutton:hover,
+.rdmcsectiontwotwo .sectionbutton:focus,
+.rdmcsectiontwotwo .sectionbutton-light:hover,
+.rdmcsectiontwotwo .sectionbutton-light:focus {
+  background-color: #c4cae6;
+  color: var(--rdmc-navy);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.rdmcsectiononeone {
+  background-color: var(--rdmc-aster);
+  color: var(--rdmc-navy);
+}
+
+.rdmcsectiononeone .sectionbutton,
+.rdmcsectiononeone .sectionbutton-navy {
+  background-color: var(--rdmc-navy);
+  color: #ffffff;
+}
+
+.rdmcsectiononeone .sectionbutton:hover,
+.rdmcsectiononeone .sectionbutton:focus,
+.rdmcsectiononeone .sectionbutton-navy:hover,
+.rdmcsectiononeone .sectionbutton-navy:focus {
+  background-color: #21406F;
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.navimenu a:hover,
+.navimenu a:focus,
+.navimenu a.is-active,
+.navimenu a[aria-current="location"] {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.rdmc-two-column-sections {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.rdmc-two-column-sections > .rdmcsection,
+.rdmc-two-column-sections > .rdmcsectiontwo,
+.rdmc-two-column-sections > .rdmcsectiononeone,
+.rdmc-two-column-sections > .rdmcsectiontwotwo {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.rdmc-two-column-sections .row {
+  flex: 1;
+}
+
+.rdmc-upper-pair .row,
+.rdmc-lower-pair .row {
+  flex-direction: column;
+}
+
+.rdmc-upper-pair [class*="col-md-"],
+.rdmc-lower-pair [class*="col-md-"] {
+  width: 100%;
+}
+
+.rdmc-two-column-sections .buttoncolumn {
+  width: 100%;
+  margin-top: auto;
+}
+
+.carousel-header h2,
+#carousel-heading {
+  font-size: 34px !important;
+  font-weight: 700 !important;
+}
+
+.carousel-card img {
+  box-sizing: border-box;
+  padding: 1.5rem;
+  object-fit: contain;
+  background-color: #ffffff;
+}
+
+.card-button {
+  background-color: var(--rdmc-dogwood);
+  color: var(--rdmc-navy);
+}
+
+.card-button:hover,
+.card-button:focus {
+  background-color: #9FCEAB;
+  color: var(--rdmc-navy);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media only screen and (max-width: 1170px) {
+  .coretrust-mobile {
+    display: flex !important;
+  }
+
+  .coretrust-nav-item {
+    display: none !important;
+  }
+
+  #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-blocks-left {
+    flex: 1 1 45%;
+  }
+
+  #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-blocks-center {
+    display: flex !important;
+    flex: 0 0 auto;
+    justify-content: center;
+  }
+
+  .coretrust-mobile img {
+    height: 42px;
+  }
+}
+
+@media (max-width: 991px) {
+  .rdmcuncribbon {
+    width: min(460px, 48vw);
+    margin-left: 24px;
+  }
+
+  .rdmcuncbanner {
+    background-position: 92% center;
+  }
+
+  .rdmc-two-column-sections {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .rdmcuncribbon {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .rdmcuncbanner {
+    background-position: 92% 80%;
+  }
+}
+
+/* Final content block background adjustments */
+#adddata,
+#basicservice,
+#searchdata {
+  background-color: #ECEDED;
+  color: #13294B;
+}
+
+#prepdata {
+  background-color: #ffffff;
+  color: #13294B;
+}
+
+
+/* Mobile: keep CoreTrustSeal beside the menu button only. Do not duplicate it inside the expanded menu panel. */
+@media only screen and (max-width: 1170px) {
+  #mega-menu-wrap-primary #mega-menu-primary > li.coretrust-nav-item,
+  #mega-menu-wrap-primary #mega-menu-primary > li.coretrust-nav-item.mega-menu-item,
+  #mega-menu-wrap-primary #mega-menu-primary > li.coretrust-nav-item.mega-hide-on-mobile {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
+
+/* Latest refinement pass: On this page style, cloud backgrounds, button colors, and guide/policy restructuring. */
+:root {
+  --rdmc-cloud: #ECEDED;
+  --rdmc-bolin-creek: #2C5080;
+}
+
+.navimenu {
+  background-color: var(--rdmc-aster);
+  color: var(--rdmc-navy);
+  text-align: center;
+}
+
+.navimenu h2 {
+  color: var(--rdmc-navy);
+}
+
+.navimenu ul,
+.navimenu li,
+.navimenu-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navimenu li,
+.navimenu-links a {
+  padding-left: 0;
+}
+
+.navimenu li::before {
+  content: none !important;
+}
+
+.navimenu-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.navimenu a {
+  display: inline-block;
+  width: auto;
+  max-width: 100%;
+  color: var(--rdmc-navy);
+  text-align: center;
+}
+
+.navimenu a:hover,
+.navimenu a:focus,
+.navimenu a.is-active,
+.navimenu a[aria-current="location"] {
+  background-color: var(--rdmc-mountain-dusk);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.rdmcsection,
+.rdmcsectiontwo,
+#adddata,
+#basicservice,
+#searchdata {
+  background-color: var(--rdmc-cloud);
+  color: var(--rdmc-navy);
+}
+
+#prepdata {
+  background-color: #ffffff;
+  color: var(--rdmc-navy);
+}
+
+.sectionbutton,
+.sectionbutton-light,
+.sectionbutton-navy,
+.rdmcsection .sectionbutton,
+.rdmcsectiontwo .sectionbutton,
+.rdmcsectiononeone .sectionbutton,
+.rdmcsectiontwotwo .sectionbutton,
+.rdmcsectiontwotwo .sectionbutton-light {
+  background-color: var(--rdmc-navy);
+  color: #ffffff;
+}
+
+.sectionbutton:hover,
+.sectionbutton:focus,
+.sectionbutton-light:hover,
+.sectionbutton-light:focus,
+.sectionbutton-navy:hover,
+.sectionbutton-navy:focus,
+.rdmcsection .sectionbutton:hover,
+.rdmcsection .sectionbutton:focus,
+.rdmcsectiontwo .sectionbutton:hover,
+.rdmcsectiontwo .sectionbutton:focus,
+.rdmcsectiononeone .sectionbutton:hover,
+.rdmcsectiononeone .sectionbutton:focus,
+.rdmcsectiontwotwo .sectionbutton:hover,
+.rdmcsectiontwotwo .sectionbutton:focus,
+.rdmcsectiontwotwo .sectionbutton-light:hover,
+.rdmcsectiontwotwo .sectionbutton-light:focus {
+  background-color: var(--rdmc-bolin-creek);
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.rdmcsectiononeone {
+  background-color: var(--rdmc-aster);
+  color: var(--rdmc-navy);
+}
+
+.rdmc-two-column-sections .buttoncolumn {
+  width: auto;
+  align-items: flex-start;
+}
+
+.rdmc-two-column-sections .sectionbutton {
+  align-self: flex-start;
+  width: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.card-button {
+  background-color: var(--rdmc-aster);
+  color: var(--rdmc-navy);
+}
+
+.card-button:hover,
+.card-button:focus {
+  background-color: #c4cae6;
+  color: var(--rdmc-navy);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 991px) {
+  .rdmc-two-column-sections .buttoncolumn {
+    align-items: center;
+  }
+
+  .rdmc-two-column-sections .sectionbutton {
+    align-self: center;
+  }
+}
+
+/* Final side navigation and shared-row button refinement. */
+.navimenu {
+  text-align: left;
+}
+
+.navimenu h2 {
+  text-align: left;
+}
+
+.navimenu-links {
+  align-items: stretch;
+  gap: 0.45rem;
+}
+
+.navimenu a {
+  display: block;
+  width: 100%;
+  padding: 0.72rem 1rem;
+  border-radius: 8px;
+  color: var(--rdmc-navy);
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: left;
+  text-decoration: none;
+}
+
+.navimenu a:hover,
+.navimenu a:focus,
+.navimenu a.is-active,
+.navimenu a[aria-current="location"] {
+  background-color: var(--rdmc-mountain-dusk);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.rdmc-two-column-sections .buttoncolumn {
+  align-items: flex-start;
+}
+
+.rdmc-two-column-sections .sectionbutton {
+  align-self: flex-start;
+  width: 250px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.rdmcsectiontwotwo .sectionbutton,
+.rdmcsectiontwotwo .sectionbutton-light {
+  background-color: var(--rdmc-aster);
+  color: var(--rdmc-navy);
+}
+
+.rdmcsectiontwotwo .sectionbutton:hover,
+.rdmcsectiontwotwo .sectionbutton:focus,
+.rdmcsectiontwotwo .sectionbutton-light:hover,
+.rdmcsectiontwotwo .sectionbutton-light:focus {
+  background-color: var(--rdmc-mountain-dusk);
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 991px) {
+  .navimenu,
+  .navimenu h2,
+  .navimenu a {
+    text-align: left;
+  }
+
+  .rdmc-two-column-sections .buttoncolumn {
+    align-items: center;
+  }
+
+  .rdmc-two-column-sections .sectionbutton {
+    align-self: center;
+    width: min(250px, 100%);
+  }
+}
+
+/* Final refinement: unbold side nav and adjust shared-row button grouping. */
+.navimenu a {
+  font-weight: 400;
+}
+
+.navimenu a.is-active,
+.navimenu a[aria-current="location"] {
+  font-weight: 400;
+}
+
+.rdmc-two-column-sections .buttoncolumn {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.rdmc-two-column-sections .buttoncolumn .sectionbutton {
+  width: 220px;
+  max-width: 100%;
+  align-self: center;
+}
+
+.rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(2):last-child) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(3)) {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(2):last-child) .sectionbutton {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(2):last-child) {
+    flex-direction: column;
+  }
+}
+
+
+/* Final patch: combined Guides/Policies navigation and three-button row. */
+.rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(3):last-child),
+.rdmc-two-column-sections .buttonrow-three {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(3):last-child) .sectionbutton,
+.rdmc-two-column-sections .buttonrow-three .sectionbutton {
+  width: 170px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(3):last-child),
+  .rdmc-two-column-sections .buttonrow-three {
+    flex-direction: column;
+  }
+
+  .rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(3):last-child) .sectionbutton,
+  .rdmc-two-column-sections .buttonrow-three .sectionbutton {
+    width: min(250px, 100%);
+  }
+}
+
+/* Correction: keep button groups inside their original sections while giving them enough width. */
+.rdmc-upper-pair .row,
+.rdmc-lower-pair .row {
+  display: block;
+}
+
+.rdmc-upper-pair [class*="col-md-"],
+.rdmc-lower-pair [class*="col-md-"] {
+  float: none;
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+
+.rdmc-two-column-sections .buttoncolumn {
+  width: 100%;
+}
+
+.rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(3):last-child),
+.rdmc-two-column-sections .buttonrow-three {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.65rem;
+  align-items: stretch;
+  justify-content: stretch;
+  width: 100%;
+}
+
+.rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(3):last-child) .sectionbutton,
+.rdmc-two-column-sections .buttonrow-three .sectionbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  max-width: none;
+  min-width: 0;
+  min-height: 48px;
+  margin: 0;
+  padding: 0.7rem 0.45rem;
+  font-size: 0.86rem;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(2):last-child) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(2):last-child) .sectionbutton {
+  width: 220px !important;
+  max-width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(3):last-child),
+  .rdmc-two-column-sections .buttonrow-three,
+  .rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(2):last-child) {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(3):last-child) .sectionbutton,
+  .rdmc-two-column-sections .buttonrow-three .sectionbutton,
+  .rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(2):last-child) .sectionbutton {
+    width: min(260px, 100%) !important;
+  }
+}
+
+/* Button font size override */
+.sectionbutton{font-size:16px !important;}
+
+
+/* Final equal-height fix for three-button groups.
+   This targets the actual section button markup and overrides earlier grid rules. */
+.rdmc-two-column-sections .buttonrow-three .sectionbutton,
+.rdmc-two-column-sections .buttoncolumn.buttonrow-three .sectionbutton,
+.rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(3):last-child) .sectionbutton {
+  min-height: 76px !important;
+  height: 76px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  line-height: 1.25 !important;
+  padding: 0.75rem 0.65rem !important;
+  box-sizing: border-box !important;
+}
+
+@media (max-width: 767px) {
+  .rdmc-two-column-sections .buttonrow-three .sectionbutton,
+  .rdmc-two-column-sections .buttoncolumn.buttonrow-three .sectionbutton,
+  .rdmc-two-column-sections .buttoncolumn:has(> .sectionbutton:nth-child(3):last-child) .sectionbutton {
+    min-height: auto !important;
+    height: auto !important;
+    padding: 0.75rem 1rem !important;
+  }
+}
+
+
+/* Top I Want To menu restoration and return-to-menu control.
+   This intentionally overrides the former sticky side navigation styles. */
+.rdmc-sticky-layout {
+  display: block !important;
+  position: static !important;
+}
+
+.rdmc-scroll-content {
+  min-width: 0 !important;
+  width: 100% !important;
+}
+
+.navimenu.rdmc-i-want-menu,
+.rdmc-i-want-menu {
+  position: static !important;
+  float: none !important;
+  width: 100% !important;
+  max-height: none !important;
+  overflow: visible !important;
+  margin: 1.5rem 0 1.25rem !important;
+  padding: 1.25rem !important;
+  background-color: var(--rdmc-aster) !important;
+  color: var(--rdmc-navy) !important;
+  border-radius: 15px 0 15px 0 !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+}
+
+.rdmc-i-want-menu h2 {
+  margin: 0 0 1rem !important;
+  color: var(--rdmc-navy) !important;
+  text-align: center !important;
+}
+
+.rdmc-i-want-menu .navimenu-links {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem !important;
+  align-items: stretch !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.rdmc-i-want-menu .navimenu-links a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  min-height: 52px;
+  padding: 0.75rem 1rem !important;
+  background-color: var(--rdmc-navy) !important;
+  color: #ffffff !important;
+  border-radius: 6px !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 1.25 !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+}
+
+.rdmc-i-want-menu .navimenu-links a:hover,
+.rdmc-i-want-menu .navimenu-links a:focus {
+  background-color: var(--rdmc-bolin-creek) !important;
+  color: #ffffff !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+}
+
+.rdmc-i-want-menu .navimenu-links a.is-active,
+.rdmc-i-want-menu .navimenu-links a[aria-current="location"] {
+  background-color: var(--rdmc-navy) !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+.rdmc-return-menu {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 9999;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.75rem 1rem;
+  background-color: var(--rdmc-navy);
+  color: #ffffff;
+  border-radius: 999px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition: opacity 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+}
+
+.rdmc-return-menu.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.rdmc-return-menu:hover,
+.rdmc-return-menu:focus {
+  background-color: var(--rdmc-bolin-creek);
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.rdmc-return-menu:focus {
+  outline: 3px solid var(--rdmc-aster);
+  outline-offset: 3px;
+}
+
+@media (max-width: 991px) {
+  .rdmc-i-want-menu .navimenu-links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .rdmc-i-want-menu .navimenu-links {
+    grid-template-columns: 1fr;
+  }
+
+  .rdmc-return-menu {
+    right: 1rem;
+    bottom: 1rem;
+    max-width: calc(100vw - 2rem);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rdmc-return-menu {
+    transition: none;
+  }
+}
+
+
+/* Major top-menu and section color update */
+:root {
+  --rdmc-off-black: #1f1f1f;
+}
+
+/* I Want To menu: text-link list with diamond arrows */
+.navimenu.rdmc-i-want-menu,
+.rdmc-i-want-menu {
+  background-color: var(--rdmc-navy) !important;
+  color: #ffffff !important;
+  text-align: left !important;
+  padding: 1.5rem 1.75rem !important;
+}
+
+.rdmc-i-want-menu h2 {
+  color: #ffffff !important;
+  text-align: left !important;
+  margin: 0 0 1rem !important;
+}
+
+.rdmc-i-want-menu .navimenu-links {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 0.45rem 2rem !important;
+  align-items: start !important;
+  justify-content: start !important;
+}
+
+.rdmc-i-want-menu .navimenu-links a {
+  position: relative !important;
+  display: inline-block !important;
+  width: auto !important;
+  min-height: 0 !important;
+  padding: 0.35rem 0.45rem 0.35rem 1.4rem !important;
+  background: transparent !important;
+  color: #ffffff !important;
+  border-radius: 6px !important;
+  font-size: 17px !important;
+  font-weight: 600 !important;
+  line-height: 1.35 !important;
+  text-align: left !important;
+  text-decoration: none !important;
+}
+
+.rdmc-i-want-menu .navimenu-links a::before {
+  content: "◆";
+  position: absolute;
+  left: 0;
+  top: 0.42rem;
+  font-size: 0.7em;
+  line-height: 1;
+  color: currentColor;
+}
+
+.rdmc-i-want-menu .navimenu-links a:hover,
+.rdmc-i-want-menu .navimenu-links a:focus {
+  background-color: var(--rdmc-aster) !important;
+  color: var(--rdmc-navy) !important;
+  text-decoration: none !important;
+}
+
+.rdmc-i-want-menu .navimenu-links a.is-active,
+.rdmc-i-want-menu .navimenu-links a[aria-current="location"] {
+  background: transparent !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+}
+
+/* Shared section styling */
+#adddata,
+#basicservice,
+#guides,
+#policies {
+  background-color: var(--rdmc-light-gray) !important;
+  color: var(--rdmc-navy) !important;
+}
+
+#adddata .sectionbutton,
+#basicservice .sectionbutton,
+#guides .sectionbutton,
+#policies .sectionbutton,
+#prepdata .sectionbutton,
+.card-carousel .card-button {
+  background-color: var(--rdmc-mountain-dusk) !important;
+  color: #ffffff !important;
+}
+
+#adddata .sectionbutton:hover,
+#adddata .sectionbutton:focus,
+#basicservice .sectionbutton:hover,
+#basicservice .sectionbutton:focus,
+#guides .sectionbutton:hover,
+#guides .sectionbutton:focus,
+#policies .sectionbutton:hover,
+#policies .sectionbutton:focus,
+#prepdata .sectionbutton:hover,
+#prepdata .sectionbutton:focus,
+.card-carousel .card-button:hover,
+.card-carousel .card-button:focus {
+  background-color: var(--rdmc-aster) !important;
+  color: var(--rdmc-navy) !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+}
+
+/* Trimmed two-button groups should sit beside each other and not span full width */
+#adddata .buttoncolumn,
+#basicservice .buttoncolumn,
+#searchdata .buttoncolumn,
+#gethelp .buttoncolumn,
+#policies .buttoncolumn {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 0.75rem !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  width: 100% !important;
+}
+
+#adddata .sectionbutton,
+#basicservice .sectionbutton,
+#searchdata .sectionbutton,
+#gethelp .sectionbutton,
+#policies .sectionbutton {
+  width: auto !important;
+  min-width: 145px !important;
+  max-width: 240px !important;
+  margin: 0 !important;
+}
+
+/* Prepare Materials */
+#prepdata {
+  background-color: #ffffff !important;
+  color: var(--rdmc-navy) !important;
+  border: 2px solid var(--rdmc-off-black) !important;
+  padding: 1.5rem !important;
+  margin: 1.25rem auto !important;
+  box-sizing: border-box !important;
+}
+
+#prepdata .buttonrow {
+  gap: 0.75rem !important;
+}
+
+#prepdata .sectionbutton {
+  width: auto !important;
+  min-width: 190px !important;
+  max-width: 260px !important;
+}
+
+/* Search Data */
+#searchdata {
+  background-color: var(--rdmc-carolina-blue) !important;
+  color: var(--rdmc-navy) !important;
+}
+
+#searchdata h2,
+#searchdata p {
+  color: var(--rdmc-navy) !important;
+}
+
+#searchdata .sectionbutton {
+  background-color: var(--rdmc-navy) !important;
+  color: #ffffff !important;
+}
+
+#searchdata .sectionbutton:hover,
+#searchdata .sectionbutton:focus {
+  background-color: var(--rdmc-bolin-creek) !important;
+  color: #ffffff !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+}
+
+/* Get Help */
+#gethelp,
+.rdmcsectiononeone#gethelp {
+  background-color: var(--rdmc-navy) !important;
+  color: #ffffff !important;
+}
+
+#gethelp h2,
+#gethelp p {
+  color: #ffffff !important;
+}
+
+#gethelp .sectionbutton {
+  background-color: var(--rdmc-carolina-blue) !important;
+  color: #ffffff !important;
+}
+
+#gethelp .sectionbutton:hover,
+#gethelp .sectionbutton:focus {
+  background-color: var(--rdmc-bolin-creek) !important;
+  color: #ffffff !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+}
+
+/* Guides row: keep three guide buttons in one row inside the guides block. */
+#guides .buttonrow-three {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 0.75rem !important;
+  width: 100% !important;
+}
+
+#guides .buttonrow-three .sectionbutton {
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding: 0.75rem 0.6rem !important;
+  font-size: 16px !important;
+}
+
+@media (max-width: 991px) {
+  .rdmc-i-want-menu .navimenu-links {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .rdmc-i-want-menu .navimenu-links,
+  #guides .buttonrow-three {
+    grid-template-columns: 1fr !important;
+  }
+
+  #adddata .buttoncolumn,
+  #basicservice .buttoncolumn,
+  #searchdata .buttoncolumn,
+  #gethelp .buttoncolumn,
+  #policies .buttoncolumn {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  #adddata .sectionbutton,
+  #basicservice .sectionbutton,
+  #searchdata .sectionbutton,
+  #gethelp .sectionbutton,
+  #policies .sectionbutton,
+  #prepdata .sectionbutton {
+    width: min(260px, 100%) !important;
+    max-width: 100% !important;
+  }
+}
+
+/* Final polish: I Want To arrows, top-card button alignment, and Search Data button width. */
+.rdmc-i-want-menu .navimenu-links a {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 0.55rem !important;
+  padding: 0.45rem 0.85rem 0.45rem 0.95rem !important;
+  line-height: 1.35 !important;
+}
+
+.rdmc-i-want-menu .navimenu-links a::before {
+  content: "\25B6" !important;
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex: 0 0 auto !important;
+  font-size: 0.7em !important;
+  line-height: 1 !important;
+  color: currentColor !important;
+}
+
+.rdmc-i-want-menu .navimenu-links a:hover,
+.rdmc-i-want-menu .navimenu-links a:focus {
+  padding-left: 1.05rem !important;
+}
+
+.rdmc-upper-pair {
+  align-items: stretch !important;
+}
+
+#adddata,
+#basicservice {
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+#adddata .row,
+#basicservice .row {
+  flex: 1 1 auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+#adddata .col-md-9,
+#basicservice .col-md-9,
+#adddata .col-md-3,
+#basicservice .col-md-3 {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 0 0 auto !important;
+}
+
+#adddata .col-md-3,
+#basicservice .col-md-3 {
+  margin-top: auto !important;
+  padding-top: 1.25rem !important;
+}
+
+#adddata .buttoncolumn,
+#basicservice .buttoncolumn {
+  padding-bottom: 0.15rem !important;
+}
+
+#searchdata .buttoncolumn {
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+#searchdata .sectionbutton {
+  width: 245px !important;
+  min-width: 245px !important;
+  max-width: 245px !important;
+  text-align: center !important;
+}
+
+@media (max-width: 767px) {
+  #searchdata .buttoncolumn {
+    align-items: center !important;
+  }
+
+  #searchdata .sectionbutton {
+    width: min(260px, 100%) !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+}
+
+/* Final customer patch: exact I Want To marker and revised two-button guide/help groups. */
+.rdmc-i-want-menu .navimenu-links a {
+  padding-left: 1.15rem !important;
+}
+
+.rdmc-i-want-menu .navimenu-links a:hover,
+.rdmc-i-want-menu .navimenu-links a:focus {
+  padding-left: 1.25rem !important;
+}
+
+.rdmc-i-want-menu .navimenu-links a::before {
+  content: "►" !important;
+  align-self: center !important;
+  transform: translateY(0) !important;
+}
+
+#guides .buttonrow-three {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 0.75rem !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+#guides .buttonrow-three .sectionbutton {
+  width: auto !important;
+  min-width: 190px !important;
+  max-width: 260px !important;
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+#gethelp .buttoncolumn {
+  margin-top: 1.25rem !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 0.75rem !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+@media (max-width: 767px) {
+  #guides .buttonrow-three,
+  #gethelp .buttoncolumn {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+
+
+/* Final typography and Get Help refinement pass. */
+html {
+  font-size: 17px;
+}
+
+body,
+.entry-content,
+.rdmcuncribbon p,
+.rdmcsection p,
+.rdmcsectiontwo p,
+.rdmcsectiontwotwo p,
+.rdmcsectiononeone p,
+.navimenu a {
+  font-size: 1rem;
+}
+
+.rdmcsection h2,
+.rdmcsectiontwo h2,
+.rdmcsectiontwotwo h2,
+.rdmcsectiononeone h2,
+.card-carousel h2,
+.navimenu h2 {
+  line-height: 1.2;
+}
+
+#gethelp .buttoncolumn {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end !important;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  margin-top: 1.25rem;
+}
+
+#gethelp .sectionbutton {
+  width: auto !important;
+  max-width: 100%;
+  min-width: 220px;
+  margin: 0;
+}
+
+#gethelp .sectionbutton:first-child {
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 16px;
+  }
+
+  #gethelp .buttoncolumn {
+    justify-content: center !important;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #gethelp .sectionbutton {
+    width: min(290px, 100%) !important;
+    min-width: 0;
+  }
+}
+
+/* Final targeted polish: support portal, carousel arrows, Prep Materials border, footer columns. */
+#prepdata {
+  border-color: var(--rdmc-mountain-dusk) !important;
+}
+
+#gethelp .buttoncolumn {
+  justify-content: flex-end !important;
+  align-items: center !important;
+  gap: 0.9rem !important;
+}
+
+#gethelp .sectionbutton,
+#gethelp .sectionbutton:link,
+#gethelp .sectionbutton:visited {
+  box-sizing: border-box !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  padding: 0.75rem 1.35rem !important;
+  text-align: center !important;
+  line-height: 1.25 !important;
+}
+
+#gethelp .sectionbutton:first-child {
+  white-space: nowrap !important;
+  min-width: 300px !important;
+}
+
+.rdmc-carousel-button {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  line-height: 1 !important;
+}
+
+.rdmc-carousel-button span {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 1em !important;
+  height: 1em !important;
+  line-height: 1 !important;
+  margin: 0 !important;
+  transform: translateY(-0.03em) !important;
+}
+
+.rdmc-footer-inner {
+  grid-template-columns: minmax(220px, auto) minmax(220px, 1fr) minmax(260px, 1fr) !important;
+  gap: 36px !important;
+  align-items: center !important;
+}
+
+.rdmc-footer-brand {
+  justify-self: start !important;
+  text-align: left !important;
+}
+
+.rdmc-footer-site-links {
+  justify-self: center !important;
+  text-align: center !important;
+}
+
+.rdmc-footer-links {
+  justify-self: end !important;
+  text-align: right !important;
+}
+
+.rdmc-footer-logo {
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 991px) {
+  .rdmc-footer-inner {
+    grid-template-columns: 1fr !important;
+    text-align: center !important;
+  }
+
+  .rdmc-footer-brand,
+  .rdmc-footer-site-links,
+  .rdmc-footer-links {
+    justify-self: center !important;
+    text-align: center !important;
+  }
+
+  .rdmc-footer-logo {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #gethelp .buttoncolumn {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  #gethelp .sectionbutton,
+  #gethelp .sectionbutton:first-child {
+    width: min(320px, 100%) !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    white-space: normal !important;
+  }
+}
+
+
+/* Final small patch: footer type size and Add Data three-button row. */
+.rdmc-footer {
+  font-size: 1rem !important;
+  line-height: 1.55 !important;
+}
+
+#adddata .buttoncolumn {
+  justify-content: flex-start !important;
+}
+
+#adddata .sectionbutton {
+  min-width: 145px !important;
+  max-width: 220px !important;
+}
+
+@media (max-width: 767px) {
+  #adddata .buttoncolumn {
+    justify-content: center !important;
+  }
+
+  #adddata .sectionbutton {
+    width: min(320px, 100%) !important;
+    max-width: 100% !important;
+  }
+}
+
+/* Footer SVG logo display fix */
+.rdmc-footer .rdmc-footer-logo,
+.rdmc-footer-brand .rdmc-footer-logo,
+footer .rdmc-footer-logo,
+img.rdmc-footer-logo {
+  display: block !important;
+  width: 300px !important;
+  max-width: 100% !important;
+  min-width: 220px !important;
+  height: auto !important;
+  max-height: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  position: relative !important;
+  z-index: 10 !important;
+  object-fit: contain !important;
+}
+
+/* Final cleanup pass: normalize top action buttons and carousel controls. */
+#adddata .buttoncolumn,
+#basicservice .buttoncolumn {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 0.75rem !important;
+  width: 100% !important;
+  margin-top: 1rem !important;
+}
+
+#adddata .sectionbutton,
+#basicservice .sectionbutton {
+  box-sizing: border-box !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  min-height: 44px !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0.65rem 1rem !important;
+  font-size: 16px !important;
+  line-height: 1.2 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+}
+
+.rdmc-carousel-button {
+  position: relative !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 56px !important;
+  height: 56px !important;
+  padding: 0 !important;
+  line-height: 1 !important;
+  text-align: center !important;
+}
+
+.rdmc-carousel-button span {
+  position: absolute !important;
+  inset: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: transparent !important;
+  font-size: 0 !important;
+  line-height: 1 !important;
+  transform: none !important;
+}
+
+.rdmc-carousel-prev span::before,
+.rdmc-carousel-next span::before {
+  display: block !important;
+  color: #ffffff !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 2.75rem !important;
+  font-weight: 400 !important;
+  line-height: 1 !important;
+  transform: translateY(-0.04em) !important;
+}
+
+.rdmc-carousel-prev span::before {
+  content: "‹" !important;
+}
+
+.rdmc-carousel-next span::before {
+  content: "›" !important;
+}
+
+@media (max-width: 767px) {
+  #adddata .buttoncolumn,
+  #basicservice .buttoncolumn {
+    justify-content: center !important;
+  }
+
+  #adddata .sectionbutton,
+  #basicservice .sectionbutton {
+    width: min(320px, 100%) !important;
+    max-width: 100% !important;
+    white-space: normal !important;
+  }
+}
+
+/* Minimal carousel disabled-state refinement. */
+.rdmc-carousel-button:disabled,
+.rdmc-carousel-button[disabled] {
+  cursor: default !important;
+}
+
+
+/* Match Get Help shape to I Want To block */
+#gethelp{border-radius:15px 0 15px 0 !important;overflow:hidden;}

@@ -1,0 +1,687 @@
+@font-face {
+  font-family: 'FoundersGroteskWeb-Regular';
+    src: url('https://endeavors.unc.edu/sites/all/fonts/FoundersGroteskWeb-Regular.eot');
+    src: url('https://endeavors.unc.edu/sites/all/fonts/FoundersGroteskWeb-Regular.eot?#iefix') format('embedded-opentype'),
+    url('https://endeavors.unc.edu/sites/all/fonts/FoundersGroteskWeb-Regular.woff2') format('woff2'),
+    url('https://endeavors.unc.edu/sites/all/fonts/FoundersGroteskWeb-Regular.woff') format('woff');
+}
+
+body {
+font-family: "FoundersGroteskWeb-Regular";
+font-size: 18px;
+line-height:135% !important;
+background-color:#ffffff;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+font-family: "FoundersGroteskWeb-Regular";
+font-weight: 700;
+}
+
+h2,.h2 {
+font-size: 24px;
+color: #0d75b1;
+}
+
+h5,.h5 {line-height:1.5 !important;}
+
+p,.p {
+  font-family: "FoundersGroteskWeb-Regular";
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.abovefold .header-logo a,
+.alert,
+.badge,
+.banner .navbar-header,
+.btn-default,
+.btn-primary,
+.btn,
+.carousel-control .icon-next,
+.carousel-control .icon-prev,
+.container .jumbotron p,
+.dropdown,
+.event-calendar .event-post .event-date,
+.iso-post .date-meta,
+.jumbotron .content,
+.label,
+.list-group-item,
+.nav-pills,
+.nav-tabs,
+.navbar-brand,
+.navbar-default,
+.pagination,
+.panel-body,
+.responsive .event-post,
+.table,
+.theme-showcase .widget ul li a:link,
+.tribe_mini_calendar_widget,
+.tribe-events-widget-link,
+#copyright p,
+#copyright,
+alert,
+aside .dropdown-menu,
+aside .dropdown,
+form,
+select {font-family: "FoundersGroteskWeb-Regular";}
+
+/* BEGIN misc. template tweaks */
+
+.abovefold {
+  background-color: transparent;
+  padding-top:35px;
+}
+
+.btn {
+    font-size:16px;
+    font-weight:normal;
+}
+.btn-primary {
+    font-weight:normal;
+    text-align:center;
+}
+
+.navbar {
+    font-size: 17px !important;
+    font-weight: bolder !important;
+}
+
+p:empty, .row > br:first-of-type {display:none;}
+
+tr {border-bottom: 1px solid #ccc;}
+th {text-align:left;}
+th, td {padding: 5px;}
+  
+/* END misc. template tweaks */
+
+/* BEGIN Only links should be underlined */
+.main a, .main a:visited {text-decoration:underline;}
+.main a.accordion-toggle {text-decoration:none;}
+u {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+}
+abbr[title], abbr[data-original-title] {text-decoration:none;}
+/* END Only links should be underlined */
+
+/* BEGIN adjustments to left section nav */
+a.section-header, span.section-header {
+  font-size:21px;
+}
+li.current_page_ancestor > a,
+li.current_page_item > a {
+  font-weight:bold;
+}
+li.page_item_has_children ul li.page_item_has_children ul {
+list-style-type:'·';
+padding-left:30px;
+}
+li.page_item_has_children ul li.page_item_has_children ul li a {
+  padding-left:1em;
+}
+/* END adjustments to left section nav */
+
+.page-header {border-bottom: 0;}
+
+.breadcrumbs .current, .breadcrumbs {
+color: #a9a9a9;
+line-height: normal;
+font-size: 16px;
+font-weight: bold;
+}
+.breadcrumbs span:first-of-type, 
+.breadcrumbs span:first-of-type a {color:#707C7C;}
+/* .breadcrumbs > a:before {content: "UNC Research ";} */
+
+.para{line-height: 125%;}
+
+.margin-row {margin: 65px 10px 65px 10px;}
+
+.main-numbers {
+font-size: 35px;
+color: #0d75b1;
+font-weight:bolder;
+}
+
+#feat-img-h {height: 350px !important;}
+
+.page-id-2 .nav-menu {display: none;}
+
+/*button code*/
+.dd {
+margin: 0 0 50px 50px;
+line-height: 1.6;
+font-size: 14px;
+color:white;
+}
+
+/*circle images*/
+.img-circle {border-radius: 50%;}
+
+/*collapse read more*/
+summary::-webkit-details-marker {
+color: #0069a6;
+font-weight: bold;
+margin-right: 2px;
+padding-top: -25px;
+}
+summary:focus {outline-style: none;}
+summary:hover {cursor:pointer;}
+
+article > details > summary {
+font-size: 17px;
+margin-top: 16px;
+color: #0069a6;
+}
+details > d {padding-left: 55px;}
+details details {margin-left: 36px;}
+details details summary {font-size: 16px;}
+
+.ch-button {
+background-color: #707C7C;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+width: 100%;
+font-family: sans-serif;
+text-transform: uppercase;
+}
+.ch-button:hover {background-color: #0069a6;}
+
+.ovcr-button {
+background-color: #767676;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+width: 100%;
+font-family: sans-serif;
+text-transform: uppercase;
+}
+.ovcr-button:hover {background-color: #007fae;}
+
+.bluebar {
+background-color: #0069a6;
+width: 100%;
+padding: 5px;
+}
+
+/*home buttons*/
+.block {
+width: 174px;
+height: 174px;
+background-color:#0d75b1;
+margin-bottom:50px;
+text-align:center;
+position: relative;
+border-radius:100%;
+margin-left: auto;
+margin-right: auto;
+}
+.block:hover {
+background-color:#4B9CD3;
+text-align:center;
+}
+
+.btn-para {
+font-size: 14px;
+line-height:150%;
+text-align:center;
+margin-top:8px;
+margin-right: 30px;
+margin-left:30px;
+margin-bottom:10px;
+color:#fff;
+}
+
+.btn-text {
+text-align:center;
+color:#0d75b1;
+margin-bottom:10px;
+font-size: 22px;
+font-weight: bold;
+clear:both;
+margin-top:25px;
+}
+
+.btn-cont {padding-top:10px;}
+
+div.block a {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+text-decoration: none; /* No underlines on the link */
+z-index: 10; /* Places the link above everything else in the div */
+background-color: #FFF; /* Fix to make div clickable in IE */
+opacity: 0; /* Fix to make div clickable in IE */
+filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+}
+
+/*news section*/
+
+.news-title {
+line-height:150%;
+font-family:FoundersGroteskWeb-Regular;
+font-weight:700;
+color:#505962;
+font-size:18px;
+}
+
+.news-para {
+font-style:italic;
+line-height:125%;
+}
+
+.news-container {
+margin-bottom:5px;
+margin-top:10px;
+}
+
+.news-thumbnails {
+float:left;
+clear:right;
+margin-right:15px;
+}
+
+.line {
+height:1px;
+width:50%;
+background-color:#e1e1e1;
+clear:both;
+margin-top: 15px !important;
+margin-bottom: 15px !important;
+}
+
+.twitter-mock {margin-top:20px;}
+
+/*event counter*/
+.events-counter {counter-reset: my-badass-counter;}
+.events-counter dt:before {
+content: counter(my-badass-counter);
+counter-increment: my-badass-counter;
+}
+
+/* BEGIN footer*/
+.footer-text{
+  font-size:12px;
+  color:#fff;
+}
+.widget .footer-social h3 {
+  text-transform:uppercase;
+  text-align:center;
+}
+.footer-social .row {
+  margin-left:auto;
+  margin-right:auto;
+}
+.footer-social-icon {
+  text-align:center;
+}
+/* END footer */
+
+/*widget*/
+.vice-button {
+background-color: #4B9CD3;
+border: none;
+padding: 10px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin-top: -200px;
+cursor: pointer;
+color:#fff !important;
+line-height:110%;
+border-radius: 4px;
+}
+.vice-button:hover {background-color: #0069a6;}
+
+.vice-button2 {
+background-color: #4B9CD3;
+border: none;
+padding: 10px 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 13px;
+cursor: pointer;
+color:#fff !important;
+line-height:110%;
+border-radius: 4px;
+}
+.vice-button2:hover {background-color: #0069a6;}
+
+.textwidget {margin:5px 0px;}
+
+/* kims additions */
+.vcbutton {margin-top:-90px;}
+.social {
+margin-top:0px; 
+text-align:right;
+}
+.input-group {margin-top:10px;}
+.container-fluid {padding-top:10px !important;}
+
+/*about buttons*/
+
+.block-about {
+clear: right;
+width: 100px;
+height: 100px;
+background-color:#0d75b1;
+text-align:center;
+position: relative;
+border-radius: 100px;
+margin: auto;
+}
+.block-about:hover {
+background-color: #4B9CD3;
+align:center;
+}
+
+.cont-about {
+width: 150px;
+height: 150px;
+}
+
+.btn-cont-about{
+display:table-cell;
+width:285px;
+height:auto;
+padding-top:10px;
+}
+
+.about-link{text-align:center;}
+
+.avcr-block{
+margin-right:auto;
+margin-left:auto;
+border:solid;
+padding:15px;
+border-radius:10px;
+border-color:#3c91cc;
+margin-bottom:20px;
+float:right;
+clear:left;
+}
+
+.arrow_box {
+position: relative;
+background: #88b7d5;
+border: 4px solid #c2e1f5;
+height:200px;
+width:200px;
+font-size:18px;
+text-align:center;
+margin-top:50%;
+}
+.arrow_box:after, .arrow_box:before {
+top: 100%;
+left: 50%;
+border: solid transparent;
+content: " ";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
+}
+.arrow_box:after {
+border-color: rgba(136, 183, 213, 0);
+border-top-color: #88b7d5;
+border-width: 30px;
+margin-left: -30px;
+}
+.arrow_box:before {
+border-color: rgba(194, 225, 245, 0);
+border-top-color: #c2e1f5;
+border-width: 36px;
+margin-left: -36px;
+}
+
+/*accordion with arrow*/
+.panel-heading .accordion-toggle:after { /* symbol for "opening" panels */
+font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+float: right;        /* adjust as needed */
+color: darkgray;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after { /* symbol for "collapsed" panels */
+content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+.panel-heading .accordion-toggle {
+font-size:18px;
+font-weight:normal;
+}
+
+/* gray story sidebars */
+
+.gray-sidebar-left {
+  background-color: #E1E1E1;
+  padding:15px;
+  margin: 25px 25px 25px 0px;
+  width: 300px;
+  max-width:50%;
+  height: auto;
+  overflow: hidden;
+  float: left;
+}
+.gray-sidebar-right {
+  background-color: #E1E1E1;
+  padding:15px;
+  margin: 25px 0px 25px 25px;
+  width: 300px;
+  max-width:50%;
+  height: auto;
+  overflow: hidden;
+  float: right;
+}
+
+/*media customization/Carolina Research in the News*/
+.media .caption {font-size:18px !important;}
+
+.media-heading{font-size:20px !important;}
+
+/*UNC Research Branding */
+.circle {
+height: 100px;
+width: 100px;
+border-radius: 50%;
+moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+margin: 0 0 15px 0;
+}
+.column-33 {
+width:33%;
+float:left;
+}
+
+section#comments {display:none;}
+
+/* BEGIN Accessibility modifications */
+
+.main a, .main a:visited {text-decoration:underline;}
+.main a.accordion-toggle {text-decoration:none;}
+
+/* END Accessibility modifications */
+
+/* BEGIN Gray Box Links */
+
+.main a.gray-bg {
+  display:table-cell;
+  height:100%;
+  width:100%;
+  background-color:#e1e1e1;
+  margin:0;
+  text-align:center;
+  vertical-align:middle;
+  text-decoration:none;
+}
+.main a.gray-bg:hover {
+  background:#767676;
+}
+.gray-bg-contents {
+  text-align:initial;
+  width:max-content;
+  margin:auto;
+  max-width:85%;
+  padding-top:48px;
+  padding-bottom:48px;
+}
+.gray-bg-contents h2 {
+  margin:0;
+}
+.main a.gray-bg:hover h2 {
+  color:#ffffff;
+}
+.gray-bg-contents p {
+  color:#4f4f4f;
+  margin-top:14px;
+  margin-bottom:0;
+}
+
+/* END Gray Box Links */
+
+/* BEGIN Darren's handy-dandy formatting classes */
+
+.indent {padding-left: 30px;}
+
+.inline-header {
+  margin-top:1.556em;
+  margin-bottom:.778em;
+}
+.inline-header h1,
+.inline-header h2,
+.inline-header h3,
+.inline-header h4,
+.inline-header h5,
+.inline-header h6,
+.inline-header p {display:inline;}
+
+.no-space-before,
+.no-space-before > [class*="col-"] {margin-top:0;}
+.no-space-after,
+.no-space-after > [class*="col-"] {margin-bottom:0;}
+
+.spaced-list > li {margin-bottom:.778em;}
+.spaced-list > li > ul,
+.spaced-list > li > ol {margin-top:.778em;}
+
+.staff-name {
+    font-size:21px;
+    color:#0d75b1;
+}
+.staff-suffixes {font-size:21px;}
+.staff-title {font-size:21px;}
+
+.full-width-video-container {
+  position: relative; 
+  height: 0; 
+  padding-bottom: 56.25%; 
+  margin-bottom: 14px;
+}
+.full-width-video-container iframe {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+}
+
+.same-column-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.same-column-height > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+}
+
+.all-caps {text-transform:uppercase;}
+.small-caps {
+    text-transform:uppercase;
+    font-size:80%;
+}
+.big-text {
+    font-size:20px;
+    line-height:24px;
+}
+.centered-text {
+    text-align:center;
+}
+
+.rounded-corner-box > [class*="col-"] {
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin: 10px;
+    width:45%;
+}
+.gray-bg > [class*="col-"] {
+    background-color: #cccccc;
+}
+.rounded-corner-box > [class*="col-"] ul {
+    margin-bottom:28px;
+}
+
+/*translations button code*/
+.translation-btn {
+  padding: 15px;
+  display: block;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #689ad1, #8CC9D1, #dc9040, #b71f77);
+  background-size: 100%;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.translation-btn:hover {
+  color: #fff !important;
+}
+
+/* END Darren's handy-dandy formatting classes */
+
+/* print */
+@media print {
+  p,h2,h3 {font-size:18px;}
+}
+
+/* mobile */
+@media screen and (max-width: 995px) {
+  .abovefold .col-sm-4 {margin-top:50px !important;}
+  footer section {
+    width:100%;
+    clear:both;
+    text-align:center;
+  }
+  footer section h3 {
+      text-align:center !important;
+  }
+}
+
+
+/*** Event Spacing ***/
+.event-calendar .event-post .event-details {
+padding: 0 1em;
+}
